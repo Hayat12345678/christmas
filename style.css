@@ -1,0 +1,70 @@
+body {
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+#image {
+
+    border: brown;
+    width: auto;
+    height: 200px;
+    margin-left: 40px;
+    margin-top: 120px;
+    position: relative;
+    display: inline-block;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+
+h1::before {
+    content: "***************************";
+
+    font-size: 3rem;
+}
+
+h1::after {
+    content: "***************************";
+    font-size: 3rem
+}
+
+h1 {
+    font-size: 5rem;
+    color: rgba(6, 2, 39, 0.979);
+    text-shadow: 2px 2px 3px #ebe72dd8,
+        3px -3px 4px rgb(241, 123, 54),
+        -2px 3px 3px rgb(2, 15, 53),
+        -3px -3px 4px rgb(98, 134, 241);
+    font-weight: 600;
+    display: grid;
+    justify-content: center;
+    padding-bottom: 8rem;
+
+}
+
+#wish {
+    background-color: rgb(245, 179, 125);
+    color: black;
+    font-family: 'Zen Antique', serif;
+    font-size: 2rem;
+    border: brown 3px solid;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 40px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 0px;
+    opacity: 0.5;
+}
+
+#name {
+    font-family: 'Dancing Script', cursive;
+    color: rgb(41, 6, 6);
+    font-size: 40px;
+}
+p{
+    font-family: 'Karla', sans-serif;
+}
