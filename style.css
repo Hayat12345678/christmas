@@ -22,7 +22,7 @@ body {
 
 
 h1::before {
-    content: "***************************";
+    content: "* * * * * * * * * * * * * * * * * *";
 
     font-size: 3rem;
 }
